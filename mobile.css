@@ -1,0 +1,72 @@
+* { margin: 0; padding: 0; }
+		
+html { 
+	background: url(http://i.imgur.com/p5D8f84.jpg) no-repeat left top fixed;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+@-o-viewport {
+  width: device-width;
+}
+	
+#page-wrap { 
+	width: 250px; 
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 30px;
+	margin-bottom: 134px;
+	top: 20px;
+	padding: 20px; 
+	background: white; 
+	-moz-box-shadow: 5px 8px 50px #000000; 
+	-webkit-box-shadow: 5px 8px 50px #000000; 
+	box-shadow: 5px 8px 50px #000000; 
+}
+
+	
+h1, .linktext { 
+	font: 30px 'Fredericka the Great', sans-serif; 
+	margin: 0 0 10px 0; 
+	text-align: center; 
+	color: #000000;
+}
+		
+h2 {
+	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-size: 10px;
+	text-align:center;
+	margin: 20px 0 0 0;
+}
+h3 {
+	font-family: "Helvetica Neue",Arial,sans-serif;
+	font-size: 8px;
+	text-align:left;
+	margin: 0 0 20px 0;
+	font-weight: normal;			
+}		
+h4 {
+	font-family: 'Fredericka the Great',Arial,sans-serif;
+	font-size: 15px;
+	text-align:center;
+	margin: 0 0 30px 0;
+	color: #000000;
+}
+		
+a.links:link {color: #e99708;text-decoration: none;}
+a.links:visited {color: #e99708;text-decoration: none;}
+a.links:hover {color: #e99708;text-decoration: underline;}
+a.links:active {color: #e99708;text-decoration: none;}
+
+a.header:link {color: #000000;text-decoration: none;}
+a.header:visited {color: #000000;text-decoration: none;}
+a.header:hover {color: #e99708;text-decoration: none;}
+a.header:active {color: #000000;text-decoration: none;}
+			
+a.nav:link {color: #909090;text-decoration: none;}
+a.nav:visited {color: #909090;text-decoration: none;}
+a.nav:hover {color: #e99708;text-decoration: none;}
+a.nav:active {color: #909090;text-decoration: none;}
+			
